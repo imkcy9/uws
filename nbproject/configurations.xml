@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="sys" displayName="sys" projectFiles="true">
+      <itemPath>sys/atomic_counter.h</itemPath>
+      <itemPath>sys/atomic_ptr.h</itemPath>
+      <itemPath>sys/clock.cpp</itemPath>
+      <itemPath>sys/clock.h</itemPath>
+      <itemPath>sys/epoll.cpp</itemPath>
+      <itemPath>sys/epoll.h</itemPath>
+      <itemPath>sys/i_poll_events.h</itemPath>
+      <itemPath>sys/mailbox.h</itemPath>
+      <itemPath>sys/mutex.h</itemPath>
+      <itemPath>sys/poller_base.cpp</itemPath>
+      <itemPath>sys/poller_base.h</itemPath>
+      <itemPath>sys/signaler.cpp</itemPath>
+      <itemPath>sys/signaler.h</itemPath>
+      <itemPath>sys/thread.cpp</itemPath>
+      <itemPath>sys/thread.h</itemPath>
+      <itemPath>sys/ypipe.h</itemPath>
+      <itemPath>sys/ypipe_base.h</itemPath>
+      <itemPath>sys/yqueue.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="HeaderFiles" displayName="头文件" projectFiles="true">
+      <itemPath>Epoll.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles" displayName="源文件" projectFiles="true">
+      <itemPath>Epoll.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles" displayName="资源文件" projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="测试文件"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="重要文件"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>sys</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <linkerTool>
+          <commandLine>-lpthread</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="Epoll.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Epoll.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="sys/atomic_counter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sys/atomic_ptr.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sys/clock.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="sys/clock.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sys/epoll.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="sys/epoll.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sys/i_poll_events.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sys/mailbox.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sys/mutex.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sys/poller_base.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="sys/poller_base.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sys/signaler.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="sys/signaler.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sys/thread.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="sys/thread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sys/ypipe.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sys/ypipe_base.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sys/yqueue.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="Epoll.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Epoll.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="sys/atomic_counter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sys/atomic_ptr.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sys/clock.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="sys/clock.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sys/epoll.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="sys/epoll.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sys/i_poll_events.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sys/mailbox.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sys/mutex.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sys/poller_base.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="sys/poller_base.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sys/signaler.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="sys/signaler.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sys/thread.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="sys/thread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sys/ypipe.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sys/ypipe_base.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sys/yqueue.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
